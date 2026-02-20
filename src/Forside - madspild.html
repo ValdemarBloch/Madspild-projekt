@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events - Logget ind</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #F5F5DC;
+    }
+
+    .topbar {
+        background-color: #ddd;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+    }
+
+    .close-btn {
+        position: absolute;
+        right: 15px;
+        top: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
+    .nav {
+        background-color: #eee;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-left {
+        font-weight: bold;
+    }
+
+    .nav-right a {
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 5px 10px;
+        border: 1px solid #999;
+        background-color: #ddd;
+        color: black;
+    }
+
+    .back-btn {
+        margin: 15px;
+        padding: 5px 10px;
+        border: 1px solid #999;
+        background-color: #ddd;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+
+    }
+
+   /* Banner */
+        .banner-large {
+            margin: 20px;
+            <!--           ;-->
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: #6B8E23;
+        }
+        .banner-small {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;        /* Centrerer tekstlinjerne */
+  height: 60px;  /* Gør banneret smalt og ensartet */
+  color: #6B8E23;
+  font-weight: bold;
+}
+
+
+
+    /* Content */
+    .content {
+        margin: 20px;
+    }
+
+    .content h2 {
+        margin-bottom: 20px;
+    }
+
+    /* Event boxes */
+    .event-box {
+        background-color: rgb(142,165,71);
+        opacity: 1;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #333
+    }
+
+ .event-img {
+        width: 150px;
+        height: 60px;
+        background-color: #ddd;
+        border: 1px solid #999;
+
+    }
+    .event-img img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+    /* Footer */
+    .footer {
+        background-color: #ddd;
+        padding: 15px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .footer a {
+        text-decoration: none;
+        margin: 0 10px;
+        padding: 5px 15px;
+        border: 1px solid #999;
+        background-color: #eee;
+        color: black;
+
+    }
+    </style>
+</head>
+<body>
+<div class="topbar">
+    Danmark Mod MadSpild
+    <span class="close-btn">X</span>
+</div>
+
+<div class="nav">
+    <div class="nav-left"></div>
+    <div class="nav-right">
+        <a href="#">Nyheder og Events</a>
+        <a href="#">Privat</a>
+        <a href="#">Erhverv</a>
+    </div>
+</div>
+
+<a href="#" class="back-btn">Tilbage</a>
+
+<div class="banner-large">
+    Danmark Mod Madspild
+</div>
+<div class="banner-small">
+    Danmark Mod Madspild arbejder for at reducere madspild i hele landet.<br>
+    Vi hjælper både butikker og private med at udnytte maden bedre.<br>
+    Sammen skaber vi et mere bæredygtigt Danmark.
+</div>
+</body>
+</html>
